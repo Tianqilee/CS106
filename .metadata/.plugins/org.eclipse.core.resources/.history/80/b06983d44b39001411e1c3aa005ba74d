@@ -13,28 +13,21 @@ public class NutritionCalculator {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    double myVal = 200.0;
+    double myVal = 110.0;
     System.out.println("Amount of beef:" + myVal + "g");
-    Afat(myVal);
-    Acholesterol(myVal);
-    Aprotein(myVal);
-    }
-	
-	//compute FAT
-	public static void Afat(double myVal){
-    double fat = myVal * 0.2;
+    double fat;
+    double cholesterol;
+    double protein;
+    //compute FAT
+    fat = myVal * 0.2;
     //print results
-    System. out.println("Amount of fat:" + fat + "g");}
-	
-	public static void Acholesterol(double myVal){
-	 //compute CHOLESTEROL
-    double cholesterol = myVal * 0.25;
+    System. out.println("Amount of fat:" + fat + "g");
+    //compute CHOLESTEROL
+    cholesterol = myVal * 0.25;
     //print results
     System.out.println("Amount of cholesterol:" + cholesterol + "g");
-	}
-	public static void Aprotein(double myVal){
     //compute PROTEIN
-    double protein = myVal * 0.44;
+    protein = myVal * 0.44;
     //print results
     System.out.println("Amount of protein:" + protein +"g");
     if (protein > 56) {
@@ -43,14 +36,3 @@ public class NutritionCalculator {
     System.out.println("You should eat more!"); }	
     }
 }
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
