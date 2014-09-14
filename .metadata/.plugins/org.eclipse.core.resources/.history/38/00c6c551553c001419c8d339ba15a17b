@@ -13,7 +13,7 @@ public class NutritionCalculator {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	double myVal = 200.0;
+	double myVal = 100.00;
     System.out.println("Amount of beef:" + myVal + "g");
     Afat(myVal);
     Acholesterol(myVal);
@@ -24,8 +24,8 @@ public class NutritionCalculator {
 	public static void Afat(double myVal){
     double fat = myVal * 0.2;
     //print results
-    System. out.println("Amount of fat:" + fat + "g");
-    }
+    System. out.println("Amount of fat:" + fat + "g");}
+	
 	public static void Acholesterol(double myVal){
 	 //compute CHOLESTEROL 
     double cholesterol = myVal * 0.25;
