@@ -19,13 +19,8 @@ public class NutritionCalculator {
     System.out.println("Amount of fat:" + Afat(myVal) + "g");
     System.out.println("Amount of cholesterol:" + Acholesterol(myVal) + "g");
     System.out.println("Amount of protein:" + Aprotein(myVal) +"g");
-    if (Aprotein(myVal) > 56){
-    System.out.println("You should eat more!"  );}
-    else {System.out.println("Sufficient for your body.");
-    	
-    }
-    
-    
+    System.out.println("You should eat more!");
+    System.out.println("Sufficient for your body.");
     Afat(myVal);
     Acholesterol(myVal);
     Aprotein(myVal);
@@ -43,9 +38,19 @@ public class NutritionCalculator {
 	public static double Aprotein(double myVal){
     //compute PROTEIN
     double protein = myVal * 0.44;
-    return protein;}}
+    return protein;}
+//@see http://codingbat.com/doc/java-if-boolean-logic.htm
+    public static double Anutrrition (double protein){
+    if (protein > 56) {
+   return protein;
+}
 
- 
+    else {
+    return protein;
+ }
+	}
+
+}
     
 	
 	

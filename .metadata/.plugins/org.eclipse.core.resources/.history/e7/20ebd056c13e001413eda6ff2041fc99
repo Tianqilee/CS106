@@ -21,11 +21,8 @@ public class NutritionCalculator {
     System.out.println("Amount of protein:" + Aprotein(myVal) +"g");
     if (Aprotein(myVal) > 56){
     System.out.println("You should eat more!"  );}
-    else {System.out.println("Sufficient for your body.");
-    	
-    }
     
-    
+    System.out.println("Sufficient for your body.");
     Afat(myVal);
     Acholesterol(myVal);
     Aprotein(myVal);

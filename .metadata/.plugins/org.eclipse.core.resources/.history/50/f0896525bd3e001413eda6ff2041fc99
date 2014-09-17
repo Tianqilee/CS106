@@ -16,16 +16,6 @@ public class NutritionCalculator {
 	Scanner console = new Scanner(System.in);
 	double myVal = console.nextDouble();
     System.out.println("Amount of beef:" + myVal + "g");
-    System.out.println("Amount of fat:" + Afat(myVal) + "g");
-    System.out.println("Amount of cholesterol:" + Acholesterol(myVal) + "g");
-    System.out.println("Amount of protein:" + Aprotein(myVal) +"g");
-    if (Aprotein(myVal) > 56){
-    System.out.println("You should eat more!"  );}
-    else {System.out.println("Sufficient for your body.");
-    	
-    }
-    
-    
     Afat(myVal);
     Acholesterol(myVal);
     Aprotein(myVal);
@@ -34,18 +24,29 @@ public class NutritionCalculator {
 	public static double Afat (double myVal){
     double fat = myVal * 0.2;
     return fat;
+    //print results
+
     }
-	public static double Acholesterol (double myVal){
+	public static void Acholesterol(double myVal){
 	 //compute CHOLESTEROL 
     double cholesterol = myVal * 0.25;
-    return cholesterol;
-    }
-	public static double Aprotein(double myVal){
+    //print results
+    System.out.println("Amount of cholesterol:" + cholesterol + "g");
+	}
+	public static void Aprotein(double myVal){
     //compute PROTEIN
     double protein = myVal * 0.44;
-    return protein;}}
-
- 
+    //print results
+    System.out.println("Amount of protein:" + protein +"g");
+    //@see http://codingbat.com/doc/java-if-boolean-logic.html
+    if (protein > 56) {
+    //check for condition
+    System.out.println("Sufficient for your body.");}
+    else {
+    //condition isn't met
+    System.out.println("You should eat more!"); }	
+    }
+}
     
 	
 	
