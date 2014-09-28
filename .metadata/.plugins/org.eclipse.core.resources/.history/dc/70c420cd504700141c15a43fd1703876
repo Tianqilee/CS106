@@ -87,9 +87,9 @@ public class CharacterTest {
 
 	public static void question5(Scanner console, int disruptive,
 			int incremental) {
-		System.out.println("Question5:Which way to you prefer when you are choosing a book?");
-		System.out.println("A.Take a brief overview.");
-		System.out.println("B Read the first chapter directly.");
+		System.out.println("Question5");
+		System.out.println("A");
+		System.out.println("B");
 		System.out.println("What is your answer?");
 		String answer1 = console.nextLine();
 		if (answer1.equals("A")) {
@@ -102,9 +102,9 @@ public class CharacterTest {
 
 	public static void question6(Scanner console, int disruptive,
 			int incremental) {
-		System.out.println("Question6:Do you agree with the following statement'Most people are guided by their private interests.' ");
-		System.out.println("A.Agree");
-		System.out.println("B.Disagree");
+		System.out.println("Question6:Do you agree with the following statement'' ");
+		System.out.println("A");
+		System.out.println("B");
 		System.out.println("What is your answer?");
 		String answer1 = console.nextLine();
 		if (answer1.equals("A")) {
