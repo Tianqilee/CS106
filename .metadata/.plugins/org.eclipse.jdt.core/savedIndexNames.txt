@@ -7,7 +7,6 @@ INDEX VERSION 1.126+/students/home/tli1/cs106/.metadata/.plugins/org.eclipse.jdt
 2973989649.index
 2255063300.index
 4203328324.index
-1669391102.index
 2904899373.index
 3881954193.index
 37712667.index
