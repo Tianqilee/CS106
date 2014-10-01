@@ -110,7 +110,8 @@ public class CharacterTest {
 	public static void question3(Scanner console, int disruptive,
 			int incremental) {
 		// Ask the user the third question
-		System.out.println("Question3:If one of your wishes below can become true, which one will you choose? ");
+		System.out
+				.println("Question3:If one of your wishes below can become true, which one will you choose? ");
 		System.out.println("A.Live an extra ten years.");
 		System.out.println("B.Receive $5 million.");
 		System.out.println("What is your answer?");
@@ -144,7 +145,8 @@ public class CharacterTest {
 	public static void question4(Scanner console, int disruptive,
 			int incremental) {
 		// Ask the user the fourth question
-		System.out.println("Question4:You have checked your monthly balance, and there is still some money. What will you do?");
+		System.out
+				.println("Question4:You have checked your monthly balance, and there is still some money. What will you do?");
 		System.out.println("A.Save the money.");
 		System.out.println("B.Use the money to buy something you want.");
 		System.out.println("What is your answer?");
@@ -178,7 +180,8 @@ public class CharacterTest {
 	public static void question5(Scanner console, int disruptive,
 			int incremental) {
 		// Ask the user the fifth question
-		System.out.println("Question5:Which way to you prefer when you are choosing a book?");
+		System.out
+				.println("Question5:Which way to you prefer when you are choosing a book?");
 		System.out.println("A.Take a brief overview.");
 		System.out.println("B Read the first chapter directly.");
 		System.out.println("What is your answer?");
@@ -212,7 +215,8 @@ public class CharacterTest {
 	public static void question6(Scanner console, int disruptive,
 			int incremental) {
 		// Ask the user the sixth question
-		System.out.println("Question6:Do you agree with the following statement'Most people are guided by their private interests.' ");
+		System.out
+				.println("Question6:Do you agree with the following statement'Most people are guided by their private interests.' ");
 		System.out.println("A.Agree");
 		System.out.println("B.Disagree");
 		System.out.println("What is your answer?");
@@ -246,7 +250,8 @@ public class CharacterTest {
 	public static void question7(Scanner console, int disruptive,
 			int incremental) {
 		// Ask the user the seventh question
-		System.out.println("Question 7: Your boss askes you and a person who you don't like to be partners. Which action below will you choose to take?");
+		System.out
+				.println("Question 7: Your boss askes you and a person who you don't like to be partners. Which action below will you choose to take?");
 		System.out.println("A.Obey the order.");
 		System.out.println("B.Apply for swith and explain the reason.");
 		System.out.println("What is your answer?");
