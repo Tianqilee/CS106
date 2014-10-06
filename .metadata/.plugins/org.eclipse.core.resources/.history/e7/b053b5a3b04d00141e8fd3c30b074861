@@ -41,10 +41,10 @@ public class CharacterTest2 {
 		// Record the answer to the string
 		String answer1 = console.nextLine();
 		// While loop gives the user a hint to type the answer
-		while (!answer1.equalsIgnoreCase("A")&& (!answer1.equalsIgnoreCase("B"))) {
+		while (!answer1.equalsIgnoreCase("A")
+				&& (!answer1.equalsIgnoreCase("B"))) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		/* Parse the answer */
@@ -80,7 +80,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
@@ -117,7 +116,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
@@ -153,7 +151,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
@@ -189,7 +186,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
@@ -225,7 +221,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Please Enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
@@ -261,7 +256,6 @@ public class CharacterTest2 {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("The answer cannot be identified.");
 			System.out.println("Enter 'A' or 'B'.");
-		//Ask the user to retype the answer
 			answer1 = console.nextLine();
 		}
 		// Parse the answer
