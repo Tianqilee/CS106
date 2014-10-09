@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+import java.io.*;
+import java.util.*;
+/**
+ * @author tli1
+ *
+ */
+public class Project4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)throws FileNotFoundException {
+		// TODO Auto-generated method stub
+Scanner fileReader= new Scanner(new File("src/input.txt"));
+ while(fileReader.hasNextLine()){
+ }
+ fileReader.close();
+	}
+
+public static void process(Scanner input){
+	while (input.hasNext()) {
+		 double sum = 0.0;
+		 while (input.hasNextDouble()) {
+		 sum += input.nextDouble();
+		 }
+		System.out.println(sum);
+}
+}
+}

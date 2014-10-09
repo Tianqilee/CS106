@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+import java.io.*;
+import java.util.*;
+/**
+ * @author tli1
+ *
+ */
+public class Project4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)throws FileNotFoundException {
+		// TODO Auto-generated method stub
+Scanner fileReader= new Scanner(new File("download/input.txt"));
+ while(fileReader.hasNextLine()){
+
+ }
+ fileReader.close();
+	}
+}
