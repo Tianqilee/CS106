@@ -34,19 +34,18 @@ public class Project4 {
 		}
 		// Close the file.
 		fileReader.close();
-		// Create output file.
-		File output = new File("src/output.txt");
-		PrintStream fileWriter = new PrintStream(output);
-		// Write the results in output.txt.
-		fileWriter.println("Total Checking =" + checking + "\nTotal Savings ="
-				+ savings + "\nTotal creaditCard=" + creditCard);
-		// Close the file.
+	    // Create output file.
+		File output=new File("src/output.txt");
+		PrintStream fileWriter=new PrintStream(output);
+		//Write the results in output.txt.
+		fileWriter.println("Total Checking =" + checking + "\nTotal Savings =" + savings + "\nTotal creaditCard=" + creditCard);
+		//Close the file.
 		fileWriter.close();
-		// Print results.
+		//Print results.
 		System.out.println("Total Checking =" + checking);
 		System.out.println("Total Savings =" + savings);
 		System.out.println("Total creaditCard=" + creditCard);
-
+		
 	}
 
 	/**
