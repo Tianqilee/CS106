@@ -70,7 +70,7 @@ public class Project4 {
 		// Clarify and calculate the money in each account.
 		if (accountName.equals("Checking") && accountType.equals("Withdrawal")) {
 			checking -= input.nextDouble();
-        	} else if (accountName.equals("Checking")
+        } else if (accountName.equals("Checking")
 				&& accountType.equals("Deposit")) {
 			checking += input.nextDouble();
 		} else if (accountName.equals("Checking")
