@@ -53,7 +53,7 @@ public class ArrayProject4 {
 		}
 	fileReader.close();
 		
-		for (i = 0; i < dates.length; i++) {
+		for (i = 0; i < numberLines; i++) {
 			if (accounts[i].equals("Checking")) {
 				if (transactions[i].equals("Withdrawal")) {
 					checking -= amounts[i];
