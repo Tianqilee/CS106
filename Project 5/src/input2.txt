@@ -40,7 +40,7 @@ LM	Manchester City 87 	Silva	28
 CM	Manchester City 79 	Lampard	36 
 CB	Manchester City 86	Kompany	28 
 ST	Manchester City 83	Džeko	28 
-RM	Manchester City 82 	Jesús Navas	28 
+RM	Manchester City 82 	Navas	28 
 CB	Manchester City 77	Nastasić	21
 LM	Manchester City 84 	Nasri	27 
 RM	Manchester City 78 	Milner	28 
@@ -63,7 +63,7 @@ GK	Manchester City 56 	Gunn		18
 GK	Manchester City 57 	Lawlor	19 
 RW	Manchester City 57	Bytyqi	19 
 CM	Manchester City 58 	Evans	19	
-RB	Manchester City 55 	Smith-Brown	18 
+RB	Manchester City 55 	Brown	18 
 CB	Manchester City 55 	Facey	19 
 LM	Manchester United 75 Januzaj	19 	
 ST	Manchester United 88 Falcao	28 	
@@ -126,7 +126,7 @@ CDM	Arsenal		79 Arteta	32
 LM	Arsenal		70 Coquelin	23 	
 CDM	Arsenal		77 Flamini	30 
 ST	Arsenal		59 Akpom	18 	
-LB	Arsenal		76 Monreal		28 	
+LB	Arsenal		76 Monreal	28 	
 GK	Arsenal		63 Martinez	21 	
 CB	Arsenal		55 Hayden	19 	
 RB	Arsenal		56 Moore	16 

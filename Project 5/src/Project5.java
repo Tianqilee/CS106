@@ -1,19 +1,19 @@
+import java.io.FileNotFoundException;
 /**
- * 
- */
-
-/**
- * @author tli1
- *
+ * @author Tianqi Li
+ * A class containing a program to parse soccer team data and perform reporting
  */
 public class Project5 {
 
 	/**
-	 * @param args
+	 * Main method. Responsible for primary controller routing.
+	 * @param args Arguments passed to the program.
+	 * @throws FileNotFoundException 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-
+    ClubAnalysis soccer = new ClubAnalysis();
+    soccer.analyze();
 	}
 
 }

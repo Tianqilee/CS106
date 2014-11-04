@@ -7585,3 +7585,97 @@ Caused by: java.lang.ClassNotFoundException: org.codehaus.jdt.groovy.integration
 	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 	... 106 more
+!SESSION 2014-11-03 18:19:50.241 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2014-11-03 18:20:20.639
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-03 18:20:20.639
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31145084,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73c29998,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2014-11-03 18:57:49.609 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:58:07.686
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.etfw, page: org.eclipse.ptp.etfw.preferences.ExternalToolsMainPage)
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:58:07.692
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.pldt.common, page: org.eclipse.ptp.pldt.common.prefs.PLDTPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:58:07.713
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.rm.jaxb.control.ui, page: org.eclipse.ptp.internal.rm.jaxb.control.ui.preferences.JAXBRMPreferencesPage)
+!SESSION 2014-11-03 18:58:53.266 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:59:21.869
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.etfw, page: org.eclipse.ptp.etfw.preferences.ExternalToolsMainPage)
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:59:21.875
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.pldt.common, page: org.eclipse.ptp.pldt.common.prefs.PLDTPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-11-03 18:59:21.892
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.rm.jaxb.control.ui, page: org.eclipse.ptp.internal.rm.jaxb.control.ui.preferences.JAXBRMPreferencesPage)
+!SESSION 2014-11-03 19:00:38.486 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2014-11-03 19:13:12.653
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-03 19:13:12.653
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f5cbe85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e01dd9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-11-03 19:28:19.038
+!MESSAGE Plug-in 'org.codehaus.groovy.eclipse.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.codehaus.groovy.eclipse.addnature.action
+
+!ENTRY org.eclipse.ui 4 4 2014-11-03 19:28:19.045
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction

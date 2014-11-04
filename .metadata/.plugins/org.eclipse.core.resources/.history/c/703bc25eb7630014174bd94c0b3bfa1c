@@ -1,0 +1,24 @@
+import java.io.FileNotFoundException;
+
+/**
+ * 
+ */
+
+/**
+ * @author tli1
+ *
+ */
+public class Project5 {
+
+	/**
+	 * @param args
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+    ClubAnalysis soccer = new ClubAnalysis();
+    soccer.analyze();
+    System.out.println("yes");
+	}
+
+}
