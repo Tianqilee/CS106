@@ -1,4 +1,3 @@
-
 LM  Chelsea     88  Hazard   23
 ST  Chelsea     85 	Costa	25 
 CAM	Chelsea	    84 	Oscar		22 	
@@ -131,4 +130,3 @@ GK	Arsenal		63 Martinez	21
 CB	Arsenal		55 Hayden	19 	
 RB	Arsenal		56 Moore	16 
 RB	Arsenal		55 Pleguezuelo 17
-
