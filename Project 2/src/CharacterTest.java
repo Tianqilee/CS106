@@ -51,6 +51,7 @@ public class CharacterTest {
 		while (!answer1.equalsIgnoreCase("A") && !answer1.equalsIgnoreCase("B")) {
 			System.out.println("Enter 'A' or 'B'.");
 			answer1 = console.nextLine();
+			System.out.println("hahah?");
 		}
 		/* Parse the answer */
 		if (answer1.equals("A")) {
