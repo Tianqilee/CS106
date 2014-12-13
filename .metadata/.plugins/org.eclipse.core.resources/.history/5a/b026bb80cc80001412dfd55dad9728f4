@@ -1,0 +1,58 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author tli1
+ *
+ */
+public class TeamRoster {
+
+	public static int numberLines = 0;
+	
+	public static ArrayList<ClubData> teams = new ArrayList<ClubData>();
+
+	public TeamRoster(String path) throws FileNotFoundException {
+		// Open input file for reading.
+		Scanner fileReader = new Scanner(new File(path));
+		while (fileReader.hasNextLine()) {
+			fileReader.nextLine();
+			numberLines++;
+		}
+		fileReader.close();
+		
+		String teamName;
+		double teamAttack; 
+		double teamMiddle; 
+		double teamDefense;
+		
+		int i = 0;
+		fileReader = new Scanner(new File(path));
+		while (fileReader.hasNext()) {
+			teamName = fileReader.next();
+			if (teamName.equals("Manchester")) {
+				teamName = teamName + " " + fileReader.next();
+			}
+			
+			teamAttack = fileReader.nextDouble();
+			teamMiddle = fileReader.nextDouble();
+			teamDefense = fileReader.nextDouble();
+			//System.out.println("" + teamName+ teamAttack +teamMiddle +teamDefense);
+			//TeamRoster team  = ;
+			teams.add(new ClubData(teamName, teamAttack, teamMiddle, teamDefense));
+			
+			i++;
+		}
+		fileReader.close();
+		for(ClubData s : teams){
+		System.out.println(teams);
+	}
+	}
+
+	}
+	

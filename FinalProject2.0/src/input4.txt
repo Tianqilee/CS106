@@ -1,0 +1,4 @@
+Manchester United 88 80 74
+Chelsea 83 82 81
+Arsenal 80 80 77
+Manchester City 85 81 81 

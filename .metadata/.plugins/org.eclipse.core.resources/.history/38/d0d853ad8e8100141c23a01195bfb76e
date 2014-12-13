@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+/**
+ * @author tli1
+ *
+ */
+public class Soccer15 {
+
+
+
+	/**
+	 * @param args
+	 * @param teamDefense 
+	 * @param String 
+	 * @param teamMiddle 
+	 * @param teamAttack 
+	 */
+	public static void main (String[] args) {
+		// TODO Auto-generated method stub
+       TeamRoster soccer = new TeamRoster(String name, double attack, double middle, double defense);
+      UserPrompt soccer1 = new UserPrompt();
+      soccer1.question1(soccer);
+	}
+
+}

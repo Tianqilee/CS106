@@ -1,0 +1,92 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author tli1
+ *
+ */
+public class TeamRoster {
+
+	public static int numberLines = 0;
+	
+	public String name;
+	public double attack;
+	public double middle;
+	public double defense;
+	public static ArrayList<TeamRoster> teams = new ArrayList<TeamRoster>();
+	
+	public static void main (String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+       init("src/input4.txt");
+      UserPrompt soccer1 = new UserPrompt();
+      soccer1.question1(teams);}
+public TeamRoster(String teamName, double teamAttack, double teamMiddle, double teamDefense){
+		name = teamName;
+		attack = teamAttack;
+		middle=teamMiddle;
+		defense=teamDefense;
+	}
+	
+
+//
+	public static void init(String filename) throws FileNotFoundException {
+		// Open input file for reading.
+		Scanner fileReader = new Scanner(new File("src/input4.txt"));
+		while (fileReader.hasNextLine()) {
+			fileReader.nextLine();
+			numberLines++;
+		}
+		fileReader.close();
+		
+		String teamName;
+		double teamAttack; 
+		double teamMiddle; 
+		double teamDefense;
+		
+		int i = 0;
+		fileReader = new Scanner(new File("src/input4.txt"));
+		while (fileReader.hasNext()) {
+			teamName = fileReader.next();
+			if (teamName.equals("Manchester")) {
+				teamName = teamName + " " + fileReader.next();
+			}
+			
+			teamAttack = fileReader.nextDouble();
+			teamMiddle = fileReader.nextDouble();
+			teamDefense = fileReader.nextDouble();
+			//System.out.println("" + teamName+ teamAttack +teamMiddle +teamDefense);
+			//TeamRoster team  = ;
+		teams.add(new TeamRoster(teamName, teamAttack, teamMiddle, teamDefense));
+			
+			i++;
+		}
+		fileReader.close();
+		for(TeamRoster s : teams){
+		System.out.println(s);
+	}
+	}
+	public String toString(){
+		return "Team name: " + name + " attack: " + attack + " middle: "+ middle + " defense: " + defense;
+	}
+	
+	public static boolean teamNameFound(String answer, ArrayList<TeamRoster> teams) {
+		boolean found = false;
+		// loop through all teams in the roster, looking for a name match to Answer
+		// if match found set found = true
+		for (int j = 0; j < numberLines; j++) {
+			if (answer.equals(teams.get(j).name)) {
+			 found = true;
+			}
+				
+			}
+
+		return found;
+	}
+}
